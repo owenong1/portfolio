@@ -31,12 +31,11 @@ export default function Navbar() {
     // todo: horizontal icons
     
     return (
-        <ul className="py-10 flex justify-center">
-            <div className="flex-row">
-                {socials.map((social, index) => {
-                    const Icon = social.Icon;
-                    return (
-                        <div key={index} >
+        <div className="flex justify-center py-10 flex-row">
+            {socials.map((social, index) => {
+                const Icon = social.Icon;
+                return (
+                    <div key={index} className="mx-4">
                         <Link 
                             href={social.Link} 
                             aria-label={social.Label}
@@ -45,10 +44,9 @@ export default function Navbar() {
                                 <Icon />
                             </IconContext.Provider> 
                         </Link>
-                        </div>
-                    );
-                })}
-            </div>
-        </ul>
+                    </div>
+                );
+            })}
+        </div>
     )
 }

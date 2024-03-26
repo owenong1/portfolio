@@ -1,6 +1,6 @@
 import React from "react"
 import Landing from "../../components/landing/Landing"
-import Skillbar from "../../components/skills/Skillbar"
+import Gallery from "../../components/gallery/Gallery"
 import About from "../../components/about/About"
 
 export default function Page() {
@@ -13,7 +13,7 @@ export default function Page() {
         <About />
       </div>
       <div className="max-w-7xl mx-auto p-5">
-        <Skillbar />
+        <Gallery />
       </div>
     </div>
   )

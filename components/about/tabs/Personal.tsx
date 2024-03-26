@@ -4,9 +4,9 @@ import ramen from "./ramen.png";
 const personalTab = (
     <div className="inline w-full justify-between gap-5 sm:flex">
       <div className="mb-5 text-left sm:mb-0">
-        <h5>Personal:</h5>
+        <h5>About:</h5>
         <p>
-          I love ramen.
+          Digital Artist and Computer Science Student @ NUS. 
           <br />
           <br />
 
@@ -19,7 +19,7 @@ const personalTab = (
         <Image
           src={ramen}
           className="w-60 transition duration-500 ease-in-out hover:scale-105"
-          alt="Friend holding a bundle of lights"
+          alt="Ramen"
           loading="eager"
         />
       </div>
