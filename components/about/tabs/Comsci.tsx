@@ -60,16 +60,16 @@ const csTab = (
         skills and explore my passions.
         <br />
         <br />
-        This has taken shape in the form of the various projects I've worked on,
+        This has taken shape in the form of the various projects I&apos;ve worked on,
         particularly those related to UI/UX and design. This website is one of
-        the projects I've worked on to explore my interest in web development and
-        design. I've also explored user interface design through creating UIs and 
+        the projects I&apos;ve worked on to explore my interest in web development and
+        design. I&apos;ve also explored user interface design through creating UIs and 
         mockups for an address book application and a media campaign website. One 
-        point that I'm particularly interested in is the human aspect of technology,
+        point that I&apos;m particularly interested in is the human aspect of technology,
         and the interplay between design and communication. 
         <br />
         <br />
-        Anyways, if my projects have taught me anything, it's that I love
+        Anyways, if my projects have taught me anything, it&apos;s that I love
         designing and developing products that people will appreciate both design-wise
         and feature-wise.
       </p>

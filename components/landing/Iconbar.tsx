@@ -36,10 +36,9 @@ export default function Navbar() {
                 {socials.map((social, index) => {
                     const Icon = social.Icon;
                     return (
-                        <div>
+                        <div key={index} >
                         <Link 
                             href={social.Link} 
-                            key={index} 
                             aria-label={social.Label}
                         >
                             <IconContext.Provider value={{ size: "2.5em" }}>

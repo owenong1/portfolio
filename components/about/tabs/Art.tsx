@@ -50,21 +50,21 @@ const artTab = (
     <div className="text-left text-lg sm:w-2/3">
       <h5>Arts:</h5>
       <p>
-        As a lover of art and design, I've always been interested in the process
+        As a lover of art and design, I&apos;ve always been interested in the process
         of creation. In particular, the written and visual arts and their unique
         forms of storytelling interest me to no end.
         <br />
         <br />
         As a passionate artist, I specialize in digital illustration and thrive 
         on storytelling through visual mediums. With a background in creating posters, 
-        apparel designs, and social media campaigns for various events, I've honed 
+        apparel designs, and social media campaigns for various events, I&apos;ve honed 
         my skills and eventually branched out as a commission-based artist. 
         With my main proficiencies in Photoshop and Clip Studio, I aim to inspire 
         and deliver impactful visual narratives through my art.
         <br />
         <br />
         Currently, I aim to expand my skillset by learning more on animation and
-        asset creation, and I'm always on the lookout for new opportunities to
+        asset creation, and I&apos;m always on the lookout for new opportunities to
         explore creative mediums.
       </p>
     </div>
