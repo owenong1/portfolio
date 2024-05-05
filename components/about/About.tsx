@@ -8,6 +8,7 @@ import personalicon from "./personal.png";
 import csTab from "./tabs/Comsci";
 import artTab from "./tabs/Art";
 import personalTab from "./tabs/Personal";
+import Header from "../Header";
 
 let items = [
   csicon,
@@ -40,7 +41,9 @@ function About() {
     <div className="mx-5 flex justify-center lg:mx-0" id="about">
       <div className="w-full max-w-[1024px]">
         <div className="my-5 text-center">
-          <h1 className="text-3xl font-semibold">About Me</h1>
+          <h1 className="text-3xl font-semibold">
+            <Header text="About Me" />
+          </h1>
           <div className="w-full transform rounded-xl bg-gradient-to-r from-[#82008F] via-[#EA0C5F] to-[#F6BA00] p-[1px] transition-all">
             <div className="rounded-tl-xl rounded-tr-xl bg-neutral-800">
               <div className="nav items-center">{itemsMap}</div>

@@ -4,6 +4,7 @@ import React from "react";
 import { Component } from 'react';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Header from "../Header";
 
 const uiImages = [
   {
@@ -16,6 +17,11 @@ const uiImages = [
     thumbnail: "https://i.imgur.com/rZDEpqH.png",
     description: "UI Mockup for AddressBook Project (2)"
   },
+  {
+    original: "https://i.imgur.com/TLzDSc1.png",
+    thumbnail: "https://i.imgur.com/TLzDSc1.png",
+    description: "UI Mockup for Communications Project"
+  }
 ];
 
 const foodImages = [
@@ -74,6 +80,22 @@ const eventImages = [
     original: "https://i.imgur.com/iUN5ysX.png",
     thumbnail: "https://i.imgur.com/iUN5ysX.png",
   },
+  {
+    original: "https://i.imgur.com/XhipGRw.jpeg",
+    thumbnail: "https://i.imgur.com/XhipGRw.jpeg",
+  },
+  {
+    original: "https://i.imgur.com/8fl6LIr.jpeg",
+    thumbnail: "https://i.imgur.com/8fl6LIr.jpeg",
+  },
+  {
+    original: "https://i.imgur.com/kGW6oKW.jpeg",
+    thumbnail: "https://i.imgur.com/kGW6oKW.jpeg",
+  },
+  {
+    original: "https://i.imgur.com/UQv3Lav.jpeg",
+    thumbnail: "https://i.imgur.com/UQv3Lav.jpeg",
+  }
 ];
 
 class GalleryTemplate extends Component {
@@ -102,7 +124,7 @@ export default function Gallery() {
     <div className="mx-10" id="about">
       <div>
         <h1 className="text-3xl font-semibold text-center">
-          UI/UX Mockups
+            <Header text="UI/UX Designs"/>
           <div>
             <GalleryTemplate /> 
           </div>
@@ -112,7 +134,7 @@ export default function Gallery() {
       <br />
       <div>  
         <h1 className="text-3xl font-semibold text-center">
-          Personal Illustrations
+          <Header text="Personal Illustrations"/>
           <div>
             <GalleryTemplate2 /> 
           </div>
@@ -122,7 +144,7 @@ export default function Gallery() {
       <br />
       <div>  
         <h1 className="text-3xl font-semibold text-center">
-          Event Illustrations
+          <Header text="Event Illustrations"/>
           <div>
             <GalleryTemplate3 /> 
           </div>

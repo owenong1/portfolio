@@ -69,7 +69,7 @@ const csTab = (
         and the interplay between design and communication. 
         <br />
         <br />
-        Anyways, if my projects have taught me anything, it&apos;s that I love
+        Regardless, if my projects have taught me anything, it&apos;s that I love
         designing and developing products that people will appreciate both design-wise
         and feature-wise.
       </p>
