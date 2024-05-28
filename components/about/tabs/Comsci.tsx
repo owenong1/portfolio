@@ -61,8 +61,8 @@ const csTab = (
         <br />
         <br />
         This has taken shape in the form of the various projects I&apos;ve worked on,
-        particularly those related to UI/UX and design. This website is one of
-        the projects I&apos;ve worked on to explore my interest in web development and
+        such as those related to UI/UX and design. This website is one of
+        the projects I&apos;ve worked on to learn more about web development and
         design. I&apos;ve also explored user interface design through creating UIs and 
         mockups for an address book application and a media campaign website. One 
         point that I&apos;m particularly interested in is the human aspect of technology,
